@@ -11,3 +11,6 @@ Working on a social app, backend is about done for the most part, going through 
 
 
 **March 23, 2026** Made the QR code backup system for when NFC fails. If two people tap phones and the NFC doesn’t work they can swipe to a QR code instead. The system checks that both people are within 150 meters of eachother using GPS before allowing the connection to go through. The QR code expires in 60 seconds and can only be scanned once so there  isn’t a way to screenshot it and use it remotely.
+
+
+**March 24, 2026** Built activity status, users can choose when to have this on or off. Green means active now, yellow means left within 5 minutes, nothing means offline or hidden. Also added automatic warning notifications that appear 48 hours before a private voice note thread expires so users have time to save what matters. Fixed a few field naming inconsistencies that would have caused bugs later on.
