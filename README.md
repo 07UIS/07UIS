@@ -14,3 +14,6 @@ Working on a social app, backend is about done for the most part, going through 
 
 
 **March 24, 2026** Built activity status, users can choose when to have this on or off. Green means active now, yellow means left within 5 minutes, nothing means offline or hidden. Also added automatic warning notifications that appear 48 hours before a private voice note thread expires so users have time to save what matters. Fixed a few field naming inconsistencies that would have caused bugs later on.
+
+
+**April 4, 2026** Done with the memory map today. Every person you've ever added gets a pin on a private map at the exact spot where you met. The map only appears when you enable location but the coordinates are always captured at the moment of connection so nothing is ever lost. Enable it a year from now and all your pins sync automatically into the memory map. Took a few rounds of fixes to get the permission logic right but everything seems to be working now.
